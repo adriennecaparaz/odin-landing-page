@@ -1,13 +1,13 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300,400;0,700;0,800;1,300&display=swap');
 
 :root {
-    --dark-bg: #1f2937;
+    --dark-bg: #372c2e;
     --quote-bg: #e5e7eb;
 
     --main-text: #f9faf8;
     --secondary-text: #e5e7eb;
-    --action-blue: #3882f6;
-    --dark-text: #1f2937;
+    --action-brown: #de9e48;
+    --dark-text: #372c2e;
 
     --bumper: 15vw;
 }
@@ -106,7 +106,7 @@ header ul li a {
 }
 
 .sign-up {
-    background-color: var(--action-blue);
+    background-color: var(--action-brown);
     color: var(--main-text);
     font-size: 16px;
     font-weight: 700;
@@ -140,7 +140,7 @@ header ul li a {
     width: 175px;
     height: 175px;
     object-fit: cover;
-    border: 4px solid var(--action-blue);
+    border: 4px solid var(--action-brown);
 }
 
 .three {
@@ -166,7 +166,7 @@ header ul li a {
 }
 
 .action-container {
-    background-color: var(--action-blue);
+    background-color: var(--action-brown);
     color: var(--secondary-text);
     padding: 50px 100px;
     width: 100%;
