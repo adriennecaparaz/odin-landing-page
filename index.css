@@ -134,19 +134,19 @@ header ul li a:hover {
     align-items: center;
 }
 
-.random-container {
+.bread-container {
     display: flex;
     justify-content: center;
     align-items: center;
     gap: 50px;
 }
 
-.random {
+.bread {
     width: 175px;
     text-align: center;
 }
 
-.random-img img {
+.bread-img img {
     border-radius: 15px;
     width: 175px;
     height: 175px;
@@ -154,7 +154,7 @@ header ul li a:hover {
     border: 4px solid var(--action-brown);
 }
 
-.random-img img:hover {
+.bread-img img:hover {
     filter: saturate(120%);
     transition: 0.5s;
 }
