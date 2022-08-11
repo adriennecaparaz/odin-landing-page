@@ -1,9 +1,71 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,700;0,800;1,300&display=swap');
+
 :root {
     --dark-bg: #1f2937;
-    --quote-bg: #e5e7eb
+    --quote-bg: #e5e7eb;
 
     --main-text: #f9faf8;
     --secondary-text: #e5e7eb;
     --action-blue: #3882f6;
     --dark-text: #1f2937;
+
+    --bumper: 200px;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: auto;
+    font-family: 'Poppins', 'Roboto', sans-serif;
+    font-size: 16px;
+}
+
+h1 {
+    font-size: 48px;
+    font-weight: 800;
+}
+
+h2 {
+    font-size: 36px;
+    font-weight: 800;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    background-color: var(--dark-bg);
+    padding: 20px var(--bumper);
+    margin: 0;
+}
+
+header .logo {
+    color: var(--main-text);
+    font-size: 24px;
+    font-weight: 700;
+}
+
+header ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    font-size: 18px;
+}
+
+header ul li {
+    display: block;
+}
+
+header ul li a {
+    color: var(--secondary-text);
+    text-decoration: none;
+}
+
+.one {
+    background-color: var(--dark-bg);
 }
