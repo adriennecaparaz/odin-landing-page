@@ -9,27 +9,32 @@
     --action-blue: #3882f6;
     --dark-text: #1f2937;
 
-    --bumper: 200px;
+    --bumper: 15vw;
 }
 
 * {
     box-sizing: border-box;
+    font-family: 'Poppins', 'Roboto', sans-serif;
 }
 
 body {
+    background-color: var(--dark-bg);
     margin: auto;
-    font-family: 'Poppins', 'Roboto', sans-serif;
     font-size: 16px;
 }
 
 h1 {
     font-size: 48px;
     font-weight: 800;
+    line-height: 52px;
+    color: var(--main-text);
+    margin: 0;
 }
 
 h2 {
     font-size: 36px;
     font-weight: 800;
+    color: var(--dark-text);
 }
 
 header {
@@ -66,6 +71,51 @@ header ul li a {
     text-decoration: none;
 }
 
+.one, .two, .three, .four {
+    padding: 0 var(--bumper);
+}
+
 .one {
     background-color: var(--dark-bg);
+    height: 60vh;
+    display: flex;
+    align-items: center;
+}
+
+.hero-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 50px;
+}
+
+.hero p {
+    color: var(--secondary-text);
+}
+
+.hero-img img {
+    width: 525px;
+}
+
+.sign-up {
+    background-color: var(--action-blue);
+    color: var(--main-text);
+    font-size: 16px;
+    font-weight: 700;
+    padding: 5px 30px;
+    border: none;
+    border-radius: 7px;
+    cursor: pointer;
+}
+
+.two {
+    background-color: var(--main-text);
+}
+
+.three {
+    background-color: var(--quote-bg);
+}
+
+.four {
+    background-color: var(--main-text);
 }
