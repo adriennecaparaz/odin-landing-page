@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,700;0,800;1,300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300,400;0,700;0,800;1,300&display=swap');
 
 :root {
     --dark-bg: #1f2937;
@@ -19,6 +19,7 @@
 
 body {
     background-color: var(--dark-bg);
+    color: var(--dark-text);
     margin: auto;
     font-size: 16px;
 }
@@ -35,6 +36,7 @@ h2 {
     font-size: 36px;
     font-weight: 800;
     color: var(--dark-text);
+    margin-top: 0;
 }
 
 header {
@@ -72,12 +74,11 @@ header ul li a {
 }
 
 .one, .two, .three, .four {
-    padding: 0 var(--bumper);
+    padding: 100px var(--bumper);
 }
 
 .one {
     background-color: var(--dark-bg);
-    height: 60vh;
     display: flex;
     align-items: center;
 }
@@ -85,7 +86,6 @@ header ul li a {
 .hero-container {
     display: flex;
     justify-content: space-between;
-    align-items: center;
     gap: 50px;
 }
 
@@ -110,10 +110,45 @@ header ul li a {
 
 .two {
     background-color: var(--main-text);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.random-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+}
+
+.random {
+    width: 175px;
+    text-align: center;
+}
+
+.random-img img {
+    border-radius: 15px;
+    width: 175px;
+    border: 4px solid var(--action-blue);
 }
 
 .three {
     background-color: var(--quote-bg);
+}
+
+.quote {
+    font-size: 36px;
+    font-weight: 300;
+    font-style: italic;
+    line-height: 48px;
+    text-align: justify;
+    text-align-last: left;
+}
+
+.citation {
+    font-size: 24px;
+    text-align: right;
 }
 
 .four {
