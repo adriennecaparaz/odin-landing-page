@@ -39,6 +39,12 @@ h2 {
     margin-top: 0;
 }
 
+h3 {
+    font-size: 24px;
+    color: var(--main-text);
+    margin: 0;
+}
+
 header {
     display: flex;
     justify-content: space-between;
@@ -153,4 +159,25 @@ header ul li a {
 
 .four {
     background-color: var(--main-text);
+}
+
+.action-container {
+    background-color: var(--action-blue);
+    color: var(--secondary-text);
+    padding: 50px 100px;
+    width: 100%;
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.action-button {
+    background-color: transparent;
+    color: var(--main-text);
+    border: 2px var(--main-text) solid;
+    border-radius: 10px;
+    padding: 5px 35px;
+    font-size: 16px;
+    font-weight: 700;
 }
