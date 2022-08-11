@@ -7,6 +7,7 @@
     --main-text: #f9faf8;
     --secondary-text: #e5e7eb;
     --action-brown: #de9e48;
+    --darker-brown: #c78e40;
     --dark-text: #372c2e;
 
     --bumper: 15vw;
@@ -79,6 +80,10 @@ header ul li a {
     text-decoration: none;
 }
 
+header ul li a:hover {
+    text-decoration: underline;
+}
+
 .one, .two, .three, .four {
     padding: 100px var(--bumper);
 }
@@ -116,6 +121,12 @@ header ul li a {
     cursor: pointer;
 }
 
+.sign-up:hover, .sign-up:active {
+    background-color: var(--darker-brown);
+    color: var(--main-text);
+    transition: 0.1s;
+}
+
 .two {
     background-color: var(--main-text);
     display: flex;
@@ -141,6 +152,11 @@ header ul li a {
     height: 175px;
     object-fit: cover;
     border: 4px solid var(--action-brown);
+}
+
+.random-img img:hover {
+    filter: saturate(120%);
+    transition: 0.5s;
 }
 
 .three {
@@ -184,6 +200,13 @@ header ul li a {
     padding: 5px 35px;
     font-size: 16px;
     font-weight: 700;
+    cursor: pointer;
+}
+
+.action-button:hover, .action-button:active {
+    color: var(--action-brown);
+    background-color: var(--main-text);
+    transition: 0.1s;
 }
 
 footer {
