@@ -1,3 +1,6 @@
+## Preview
+![](./images/preview.png)
+
 ## Image credits:
 
 - [Yeh Xintong on Unsplash](https://unsplash.com/photos/go3DT3PpIw4)
